@@ -1,3 +1,9 @@
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=UYIF0Ae3LBA
+" target="_blank"><img src="http://img.youtube.com/vi/UYIF0Ae3LBA/0.jpg" 
+alt="Preview" width="240" height="180" border="10" /></a>
+
 # Terrain elevation
 
 The goal of this project is to view a 3D terrain in Unity from real world data. The Digital Elevation Data (DEM)  is provided as a raster where each pixel represents a height. To create a height mesh, the raster format is converted to a vector format. The vector data can be used to create an unity mesh with a terrain texture. 
