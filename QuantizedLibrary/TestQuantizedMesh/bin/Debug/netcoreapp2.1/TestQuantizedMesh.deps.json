@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "TestQuantizedMesh/1.0.0": {
+        "dependencies": {
+          "QuantizedMesh": "1.0.0"
+        },
+        "runtime": {
+          "TestQuantizedMesh.dll": {}
+        }
+      },
+      "QuantizedMesh/1.0.0": {
+        "runtime": {
+          "QuantizedMesh.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestQuantizedMesh/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuantizedMesh/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

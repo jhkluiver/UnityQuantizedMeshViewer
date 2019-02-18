@@ -1,0 +1,40 @@
+<VRTDataset rasterXSize="2022" rasterYSize="2523">
+  <SRS>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
+  <GeoTransform>  5.1047183837289811e+05,  8.1138389819267793e+00,  0.0000000000000000e+00,  6.8067282686920436e+06,  0.0000000000000000e+00, -8.1138389819267793e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>3.402823466385289e+38</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">mercator_m5_38an1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1012" RasterYSize="1262" DataType="Float32" BlockXSize="1012" BlockYSize="2" />
+      <SrcRect xOff="0" yOff="0" xSize="1012" ySize="1262" />
+      <DstRect xOff="0" yOff="9.55279015084784" xSize="1012.62377353223" ySize="1262.77786778427" />
+      <NODATA>3.402823466385289e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">mercator_m5_38an2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1010" RasterYSize="1261" DataType="Float32" BlockXSize="1010" BlockYSize="2" />
+      <SrcRect xOff="0" yOff="0" xSize="1010" ySize="1261" />
+      <DstRect xOff="999.657069166898" yOff="0" xSize="1010.63828996337" ySize="1261.79691449882" />
+      <NODATA>3.402823466385289e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">mercator_m5_38az1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1012" RasterYSize="1262" DataType="Float32" BlockXSize="1012" BlockYSize="2" />
+      <SrcRect xOff="0" yOff="0" xSize="1012" ySize="1262" />
+      <DstRect xOff="13.7712309158921" yOff="1261.54524002984" xSize="1011.36047334387" ySize="1261.20248750985" />
+      <NODATA>3.402823466385289e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">mercator_m5_38az2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1010" RasterYSize="1261" DataType="Float32" BlockXSize="1010" BlockYSize="2" />
+      <SrcRect xOff="0" yOff="0" xSize="1010" ySize="1261" />
+      <DstRect xOff="1012.1764573882" yOff="1252.01993673274" xSize="1009.37743202788" ySize="1260.22271464074" />
+      <NODATA>3.402823466385289e+38</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
