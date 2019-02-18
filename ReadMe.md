@@ -4,9 +4,9 @@
 " target="_blank"><img src="http://img.youtube.com/vi/UYIF0Ae3LBA/0.jpg" 
 alt="Preview" width="240" height="180" border="10" /></a>
 
-Dit project was een kleine test applicatie voor:
+This project is a small test application for:
 * https://github.com/TNOCS/WorldExplorer
-in opdracht van https://www.driver-project.eu/
+(commissioned by https://www.driver-project.eu/)
 
 # Terrain elevation
 
