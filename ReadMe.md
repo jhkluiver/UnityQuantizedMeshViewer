@@ -10,7 +10,7 @@ This project is a small test application for:
 
 # Terrain elevation
 
-The goal of this project is to view a 3D terrain in Unity from real world data. The Digital Elevation Data (DEM)  is provided as a raster where each pixel represents a height. To create a height mesh, the raster format is converted to a vector format. The vector data can be used to create an unity mesh with a terrain texture. 
+The goal of this project is to view a 3D terrain in Unity from real world data. The Digital Elevation Data (DEM)  is provided as a raster where each pixel represents a height. To create a height mesh, the raster format is converted to a vector format. The vector data can be used to create a unity mesh with a terrain texture. 
 
 ## AHN
 
@@ -49,7 +49,7 @@ done
 
   ​	gdalbuildvrt tiles.vrt *.tif
 
-* Naar mercator projectie converteren
+* Convert to mercator projection
 
   ​	gdalwarp -t_srs EPSG:3857 -of GTiff -ot Float32 inputA.tif outputA.tif
 
@@ -69,7 +69,7 @@ The height tiles must be in mercator projector to match the tiles (tile identifi
 
 # Tiled maps
 
-The pyramid tile structure is used to retrieve the height mesh and terrain texture.  For the terrain texture Google maps and OSM can be used as tiled maps. These tiled maps are also called ' XYZ'  or ' Slippy Map'. The tiles have a fixed size (e.g.  256x256 pixels),  the projection is web mercator (meter). The tiles are defined by zoom level and X and Y. Google Maps and OpenStreetMap have the same Y  encoding, in  the TMS (Tile map Service) the Y is flipped.  The Terrain Mesh format uses the TMS encoding.
+The pyramid tile structure is used to retrieve the height mesh and terrain texture.  For the terrain texture Google maps and OSM can be used as tiled maps. These tiled maps are also called ' XYZ'  or ' Slippy Map'. The tiles have a fixed size (e.g.  256x256 pixels),  the projection is web mercator (meter). The tiles are defined by zoom level and X and Y. Google Maps and OpenStreetMap have the same X  encoding, in  the TMS (Tile map Service) the Y is flipped.  The Terrain Mesh format uses the TMS encoding.
 
 For Open Street Map / Google Maps:
 
@@ -233,7 +233,7 @@ In https://github.com/tangrams/unity-terrain-example is an example how to use he
 
 
 
-# Quantized-Mesh format (from cesium website)
+# Quantized-Mesh format (documentation from cesium website)
 
 When requesting tiles, be sure to include the following HTTP header in the request:
 
@@ -415,4 +415,4 @@ The following extensions may be defined for a quantized-mesh:
 
 
 
-The AHN tile size don't match the tiled maps (OSM). When converting 
+ 
